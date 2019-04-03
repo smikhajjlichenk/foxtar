@@ -94,34 +94,34 @@ a{
 		margin-top: 10px;
 	}
 }
-	.popup-login__create{
-		padding: 16px 35px 16px 65px;
-		background-color: #76ae36;
-		color: #fff;
-		font-size: 18px;
-		margin-top: 10px;
-		position: relative;
-		&:before{
-			content: '\f044';
-			font-family: 'icomoon';
-			top: 15px;
-			left: 35px;
-			position: absolute;
-		}
+.popup-login__create{
+	padding: 16px 35px 16px 65px;
+	background-color: #76ae36;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+	position: relative;
+	&:before{
+		content: '\f044';
+		font-family: 'icomoon';
+		top: 15px;
+		left: 35px;
+		position: absolute;
 	}
-	.popup-login__btn{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.popup-login__lost{
-		margin-top: 20px;
-		font-size: 18px;
-		color: #fff;
-	}
-	.fancybox-slide--html .fancybox-close--small{
-		color: #fff;
-	}
-	.fancybox-button svg path{
-		stroke-width: 2px;
-	}
+}
+.popup-login__btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.popup-login__lost{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.fancybox-slide--html .fancybox-close-small{
+	color: #fff;
+}
+.fancybox-button svg path{
+	stroke-width: 2px;
+}
