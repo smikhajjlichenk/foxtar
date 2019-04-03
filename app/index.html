@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +10,7 @@
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-
 <body>
-
   <header class="header">
     <div class="header__top">
       <div class="container">
@@ -32,7 +29,7 @@
               <span class="icon-shopping-cart header__icon"></span>
             </div>
             <div class="header__btn">
-              <button class="header__login">Login</button>
+              <a data-fancybox data-src="#modal" href="javascript:;" class="header__login">Login</a>
               <button class="header__register">Register</button>
             </div>
           </div>
@@ -58,8 +55,6 @@
       </div>
     </div>
   </header>
-
-
   <footer class="footer">
     <div class="footer__content">
       <div class="container">
@@ -148,16 +143,26 @@
               </div>
             </div>
           </footer>
-
-
-
-
-
-
-
+          <div class="popup-login" id="modal">
+            <div class="popup-login__title">
+              login
+            </div>  
+            <form class="popup-login__form">
+              <label class="popup-login__name">
+                <input type="text" placeholder="Name">
+              </label>
+              <label class="popup-login__password">
+                <input type="password" placeholder="Password">
+              </label>
+              <div class="popup-login__btn">
+                <button>Submit</button>
+                <a class="popup-login__create" href="#">Creat An Account?</a>
+              </div>
+              <a class="popup-login__lost" href="#">Lost Password</a>
+            </form>
+          </div>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="js/libs.min.js"></script>
           <script src="js/main.js"></script>
         </body>
-
         </html>
