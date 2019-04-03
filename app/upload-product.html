@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:600|Raleway:700|Roboto:400,500,700,900"
-    rel="stylesheet">
+  rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-
 <body>
-
   <header class="header">
     <div class="header__top">
       <div class="container">
@@ -32,7 +29,7 @@
               <span class="icon-shopping-cart header__icon"></span>
             </div>
             <div class="header__btn">
-              <button class="header__login">Login</button>
+              <a data-fancybox data-src="#modal" href="javascript:;" class="header__login">Login</a>
               <button class="header__register">Register</button>
             </div>
           </div>
@@ -58,8 +55,6 @@
       </div>
     </div>
   </header>
-
-
   <footer class="footer">
     <div class="footer__content">
       <div class="container">
@@ -78,14 +73,14 @@
                 Victoria 8007 Australia
               </div>
               <a class="footer__phone" href="tel:61383766284">
-                  +61 3 8376 6284
+                +61 3 8376 6284
               </a>
             </div>
           </div>
           <div class="col-3">
             <div>
               <div class="footer__title">
-                  Join Our Community 
+                Join Our Community 
               </div>
               <ul class="footer__list">
                 <li><a href="#">Home</a></li>
@@ -99,7 +94,7 @@
           <div class="col-3">
             <div>
               <div class="footer__title">
-                  Need Help?
+                Need Help?
               </div>
               <ul class="footer__list">
                 <li><a href="#">Help Center</a></li>
@@ -113,51 +108,61 @@
           <div class="col-3">
             <div>
               <div class="footer__title">
-                  Follow Us On
+                Follow Us On
               </div>
               <div class="footer__social">
                 <ul>
                   <li>
                     <a href="#"><span class="icon-facebook"></span></a>
-                   </li>
+                  </li>
                   <li>
                     <a href="#"><span class="icon-twitter"></span></a></li>
-                  <li>
-                    <a href="#"><span class="icon-youtube-play"></span></a></li>
-                  <li>
-                    <a href="#"><span class="icon-pinterest"></span></a></li>
-                  <li>
-                    <a href="#"><span class="icon-linkedin-square"></span></a></li>
-                </ul>
+                    <li>
+                      <a href="#"><span class="icon-youtube-play"></span></a></li>
+                      <li>
+                        <a href="#"><span class="icon-pinterest"></span></a></li>
+                        <li>
+                          <a href="#"><span class="icon-linkedin-square"></span></a></li>
+                        </ul>
+                      </div>
+                      <div class="footer__form-title">
+                        Newsletter Sign Up!
+                      </div>
+                      <form class="footer__form">
+                        <input type="email" placeholder="E-mail Address" required>
+                        <button></button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="footer__form-title">
-                Newsletter Sign Up!
-              </div>
-              <form class="footer__form">
-                <input type="email" placeholder="E-mail Address" required>
-                <button></button>
-              </form>
             </div>
+            <div class="footer__copy">
+              <div class="footer__copy-text">
+                © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+              </div>
+            </div>
+          </footer>
+          <div class="popup-login" id="modal">
+            <div class="popup-login__title">
+              login
+            </div>  
+            <form class="popup-login__form">
+              <label class="popup-login__name">
+                <input type="text" placeholder="Name">
+              </label>
+              <label class="popup-login__password">
+                <input type="password" placeholder="Password">
+              </label>
+              <div class="popup-login__btn">
+                <button>Submit</button>
+                <a class="popup-login__create" href="#">Creat An Account?</a>
+              </div>
+              <a class="popup-login__lost" href="#">Lost Password</a>
+            </form>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer__copy">
-      <div class="footer__copy-text">
-        © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
-      </div>
-    </div>
-  </footer>
-
-
-
-
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
-</html>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="js/libs.min.js"></script>
+          <script src="js/main.js"></script>
+        </body>
+        </html>
