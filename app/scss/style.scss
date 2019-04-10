@@ -4,14 +4,8 @@
 @import "header";
 @import "footer";
 
+@import "index";
 @import "all-items";
-@import "upload-product";
-
-
-
-
-
-
-
-
-
+@import "_upload-product";
+@import "_product-details";
+@import "media"
