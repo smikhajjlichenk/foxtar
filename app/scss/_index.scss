@@ -1,7 +1,7 @@
 @import "vars";
 
 .search{
-	background: url(../img/serch_bg.jpg);
+	background: url(../img/search_bg.jpg);
 	height: 530px;
 	color: #fff;
 	padding-top: 160px;
@@ -27,6 +27,7 @@
 .search__form{
 	margin-left: 45px;
 	input{
+		max-width: 100%;
 		height: 56px;
 		line-height: 40;
 		width: 670px;
@@ -434,6 +435,7 @@
 .greybox{
 	background-color: #b5b5b5;
 	width: 1105px;
+	max-width: 100%;
 	/* height: 438px; */
 	margin: 0 auto;
 	padding-top: 114px;
@@ -492,6 +494,10 @@
 	}
 	.tutorials__item-img{
 		height: 270px;
+		img{
+			width: 100%;
+			max-width: 100%;
+		}
 	}
 	.tutorials__item-title{
 		padding-top: 40px;
